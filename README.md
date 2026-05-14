@@ -37,6 +37,32 @@
 
 ---
 
+## Product Screenshots
+
+<a href="https://aeoae.com/en">
+  <img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-en-breadth-heatmap.png" alt="AEOAE U.S. ETF breadth heatmap dashboard" width="100%">
+</a>
+
+### English Product Views
+
+| U.S. ETF Market Temperature | U.S. Sector Rotation Radar |
+| --- | --- |
+| <a href="https://aeoae.com/en/wendu"><img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-en-current-heat-zones.png" alt="AEOAE U.S. ETF market temperature and heat zones" width="100%"></a> | <a href="https://aeoae.com/en/lundong"><img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-en-sector-groups.png" alt="AEOAE U.S. sector rotation radar and ETF theme groups" width="100%"></a> |
+
+| U.S. ETF Detail Page |
+| --- |
+| <a href="https://aeoae.com/en/us-etf/SPY"><img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-en-etf-detail-structure.png" alt="AEOAE U.S. ETF detail page with four-line trend structure" width="100%"></a> |
+
+### 中文产品视图
+
+| A股 ETF 详情页 | A股 ETF 市场温度计 |
+| --- | --- |
+| <a href="https://aeoae.com/etf/510300.SH"><img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-zh-etf-detail-structure.png" alt="AEOAE A股 ETF 详情页 四线结构 趋势结构分析" width="100%"></a> | <a href="https://aeoae.com/wendu"><img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-zh-market-temperature.png" alt="AEOAE A股 ETF 市场温度计 热力图 市场宽度图" width="100%"></a> |
+
+| A股 主线轮动雷达 |
+| --- |
+| <a href="https://aeoae.com/lundong"><img src="https://aeoae.com/assets/github/aeoae-etf-dashboard/aeoae-zh-rotation-radar.png" alt="AEOAE A股 ETF 主线轮动雷达 板块轮动 量化分析" width="100%"></a> |
+
 ## What AEOAE Is
 
 **AEOAE is a daily ETF market intelligence product built around ETF trend-structure research, signal verification, and reviewable market evidence.**
