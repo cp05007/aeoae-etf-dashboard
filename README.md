@@ -1,140 +1,108 @@
-# AEOAE ETF Market Intelligence
+# AEOAE
 
-**AEOAE** is a bilingual ETF market intelligence project for daily ETF analysis, ETF trend monitoring, market breadth research, RSI heatmap observation, and quantitative market structure tracking across A-share ETFs and U.S. ETFs.
+**AEOAE is a daily ETF market cockpit for reading A-share and U.S. ETF markets with clarity.**
 
-中文介绍请看：[AEOAE 中文项目说明](docs/README.zh-CN.md)
+It turns scattered ETF data into a cleaner research experience: market temperature, ETF market breadth, RSI heatmap, rotation radar, and individual ETF detail pages are brought together so users can understand where strength, pressure, crowding, and rotation are showing up.
 
-Live website:
+## Enter AEOAE
 
-- A-share ETF dashboard: https://aeoae.com/
-- U.S. ETF dashboard: https://aeoae.com/en
-- A-share ETF market temperature: https://aeoae.com/wendu
-- A-share ETF rotation radar: https://aeoae.com/lundong
-- U.S. ETF market temperature: https://aeoae.com/en/wendu
-- U.S. ETF rotation radar: https://aeoae.com/en/lundong
-- A-share ETF list: https://aeoae.com/etf-list.html
-- SPY ETF detail: https://aeoae.com/en/us-etf/SPY
-- QQQ ETF detail: https://aeoae.com/en/us-etf/QQQ
-- CSI 300 ETF detail: https://aeoae.com/etf/510300.SH
+| Market | Product Entry |
+| --- | --- |
+| A-share ETF dashboard | https://aeoae.com/ |
+| U.S. ETF dashboard | https://aeoae.com/en |
+| A-share ETF market temperature | https://aeoae.com/wendu |
+| A-share ETF rotation radar | https://aeoae.com/lundong |
+| U.S. ETF market temperature | https://aeoae.com/en/wendu |
+| U.S. ETF rotation radar | https://aeoae.com/en/lundong |
 
-## What AEOAE Provides
+中文介绍：[AEOAE 中文项目说明](docs/README.zh-CN.md)
 
-AEOAE focuses on practical ETF research signals for investors, researchers, and market observers who want a clean way to monitor ETF market temperature, ETF breadth, ETF RSI, trend structure, and sector rotation.
+## What Makes AEOAE Different
 
-The public website includes:
+AEOAE is built around one idea: ETF markets should be easier to read at both the whole-market level and the individual-ETF level.
 
-- Daily ETF dashboard for A-share ETFs and U.S. ETFs
-- ETF market temperature overview
-- ETF market breadth chart and breadth overview
-- RSI heatmap for identifying overbought and oversold ETF groups
-- ETF rotation radar for tracking sector and theme rotation
-- Individual ETF detail pages with daily updated market data
-- U.S. ETF detail pages for SPY, QQQ, VOO, VTI, IWM, DIA, XLK, XLF, XLE, GLD, TLT and more
-- A-share ETF detail pages for broad-market, sector, theme, dividend, technology, healthcare, semiconductor, new energy and index ETF products
+Instead of presenting only isolated price charts, AEOAE organizes daily ETF information into several complementary views:
 
-## Core Topics
+- **Market temperature** for quickly reading whether the ETF universe is broadly warm, cold, stretched, or quiet.
+- **Market breadth** for observing how many ETFs are participating in a move, not just whether a headline index is rising.
+- **RSI heatmap** for seeing where overbought and oversold pressure is clustering across ETF groups.
+- **Rotation radar** for following sector rotation, theme rotation, and changing leadership across ETF categories.
+- **ETF detail pages** for moving from the broad dashboard into a specific ETF such as SPY, QQQ, VOO, 510300.SH, or 588000.SH.
 
-AEOAE is designed around these public research themes:
+The result is a more structured way to observe ETF markets, useful for investors, researchers, writers, and builders who need a daily ETF analysis reference without jumping across many disconnected tools.
 
-- ETF analysis
-- ETF quantitative analysis
-- ETF market breadth
-- ETF breadth chart
-- ETF RSI heatmap
-- ETF market temperature
-- ETF rotation radar
-- ETF trend analysis
-- ETF trend structure
-- ETF sector rotation
-- ETF theme rotation
-- U.S. ETF analysis
-- A-share ETF analysis
-- SPY ETF analysis
-- QQQ ETF analysis
-- CSI 300 ETF analysis
-- Quantitative ETF research
-- Daily ETF data monitoring
+## Product Experience
 
-These topics describe the public-facing user experience. They do not disclose any proprietary scoring logic, internal ranking logic, model parameters, threshold design, or commercial calculation methods.
+AEOAE is designed as a bilingual ETF research website:
 
-## English Pages
+- Chinese pages focus on A-share ETF analysis, ETF quantitative analysis, ETF market temperature, ETF market breadth chart, RSI heatmap, and ETF main-line rotation.
+- English pages focus on U.S. ETF analysis, ETF breadth, RSI heatmap, ETF market temperature, ETF rotation radar, and ETF trend structure.
 
-The English side of AEOAE is built for U.S. ETF research, ETF breadth monitoring, RSI heatmap analysis, and ETF rotation observation.
+The product is intentionally centered on public, readable pages rather than opaque reports. Users can start from a market dashboard, inspect a heatmap, compare rotation, and then open a single ETF detail page.
 
-Recommended entry points:
+## Example ETF Pages
 
-- U.S. ETF dashboard: https://aeoae.com/en
-- U.S. ETF market temperature: https://aeoae.com/en/wendu
-- U.S. ETF rotation radar: https://aeoae.com/en/lundong
-- SPY ETF detail: https://aeoae.com/en/us-etf/SPY
-- QQQ ETF detail: https://aeoae.com/en/us-etf/QQQ
-- VOO ETF detail: https://aeoae.com/en/us-etf/VOO
+| ETF | Page |
+| --- | --- |
+| SPY | https://aeoae.com/en/us-etf/SPY |
+| QQQ | https://aeoae.com/en/us-etf/QQQ |
+| VOO | https://aeoae.com/en/us-etf/VOO |
+| VTI | https://aeoae.com/en/us-etf/VTI |
+| IWM | https://aeoae.com/en/us-etf/IWM |
+| CSI 300 ETF | https://aeoae.com/etf/510300.SH |
+| STAR 50 ETF | https://aeoae.com/etf/588000.SH |
 
-Example use cases:
+More public page references are listed here:
 
-- Monitor U.S. ETF market breadth before reviewing individual ETFs
-- Compare SPY, QQQ, VOO, IWM and sector ETFs by trend structure
-- Use the RSI heatmap to observe broad overbought or oversold conditions
-- Track ETF rotation between technology, financials, energy, bonds, gold and broad-market ETFs
+- [Public ETF pages and sitemap resources](docs/public-data-and-pages.md)
 
-## 中文页面
+## Brand Positioning
 
-AEOAE 中文站聚焦 A股 ETF 量化分析、ETF 市场宽度图、ETF RSI 热力图、ETF 市场温度计、ETF 主线轮动雷达和单只 ETF 详情页。
+AEOAE is not a signal-selling page and not a short-term trading call page.
 
-推荐入口：
+It is a market-structure research product for people who want to understand ETF conditions through multiple public lenses:
 
-- A股 ETF 首页：https://aeoae.com/
-- ETF 市场温度计：https://aeoae.com/wendu
-- ETF 主线轮动雷达：https://aeoae.com/lundong
-- A股 ETF 列表：https://aeoae.com/etf-list.html
-- 沪深300 ETF 详情：https://aeoae.com/etf/510300.SH
-- 科创50 ETF 详情：https://aeoae.com/etf/588000.SH
+- breadth rather than only index direction
+- heatmap rather than isolated numbers
+- rotation rather than static categories
+- daily ETF detail pages rather than one-time screenshots
+- bilingual coverage for both A-share ETFs and U.S. ETFs
 
-适合观察：
+This public GitHub repository exists to introduce the product, document public website entry points, and provide a clean reference page for people who want to cite or discover AEOAE.
 
-- A股 ETF 市场温度
-- ETF 市场宽度变化
-- RSI 热力图中的超买超卖状态
-- 宽基 ETF、行业 ETF、主题 ETF 的趋势结构
-- 科技、半导体、医药、新能源、红利、金融等 ETF 主线轮动
-
-## Public Data and Update Rhythm
-
-AEOAE is designed as a daily updated ETF research platform. Public pages may include daily ETF market snapshots, ETF detail pages, RSI heatmap data, market breadth summaries, and rotation views.
-
-The project emphasizes stable public URLs and daily refreshed user-facing pages:
+## Public Sitemap Resources
 
 - Sitemap index: https://aeoae.com/sitemap.xml
-- A-share ETF sitemap: https://aeoae.com/sitemap-etf.xml
-- U.S. ETF sitemap: https://aeoae.com/sitemap-etf-us-en.xml
 - Chinese pages sitemap: https://aeoae.com/sitemap-pages.xml
 - English pages sitemap: https://aeoae.com/sitemap-pages-en.xml
+- A-share ETF sitemap: https://aeoae.com/sitemap-etf.xml
+- U.S. ETF sitemap: https://aeoae.com/sitemap-etf-us-en.xml
 
-## What Is Not Included
+## What Is Not Public
 
-This public GitHub project page does not include:
+To protect the product and its commercial value, this repository does not publish:
 
-- Proprietary model source code
-- Private calculation scripts
-- Internal ranking formulas
-- Signal thresholds
-- Commercial scoring logic
-- Undisclosed data-cleaning logic
-- Private deployment credentials
-- Server configuration secrets
+- proprietary model source code
+- private calculation scripts
+- internal ranking formulas
+- signal thresholds
+- commercial scoring logic
+- private data-processing rules
+- deployment credentials
+- server configuration secrets
 
-The purpose of this repository is to describe the public website, public ETF research entry points, public SEO resources, and user-facing ETF analysis pages.
+The website shows public product outputs and user-facing ETF research pages. It does not expose the private implementation behind them.
 
 ## Suggested Citation
 
-If you reference AEOAE in an article, research note, newsletter, blog post, or tool directory, you can use:
+English:
 
 ```text
-AEOAE is a daily ETF market intelligence platform covering A-share ETFs and U.S. ETFs, with ETF market temperature, ETF breadth overview, RSI heatmap, rotation radar, and individual ETF detail pages.
+AEOAE is a bilingual ETF market intelligence platform for A-share and U.S. ETFs, offering daily market temperature, ETF breadth, RSI heatmap, rotation radar, and individual ETF detail pages.
 https://aeoae.com/en
 ```
 
-中文引用方式：
+中文：
 
 ```text
 AEOAE 是一个每日更新的 ETF 趋势结构研究站，覆盖 A股 ETF 和美股 ETF，提供 ETF 市场温度计、市场宽度图、RSI 热力图、主线轮动雷达和单只 ETF 详情页。
@@ -143,9 +111,9 @@ https://aeoae.com/
 
 ## Disclaimer
 
-AEOAE is for information, research, and educational purposes only. It is not investment advice, financial advice, trading advice, or a recommendation to buy or sell any security, ETF, fund, or financial product.
+AEOAE is for information, market research, and educational purposes only. It is not investment advice, financial advice, trading advice, or a recommendation to buy or sell any ETF, fund, security, or financial product.
 
-Please read the full disclaimer:
+Please read:
 
-- English: https://aeoae.com/en/disclaimer
-- Chinese: https://aeoae.com/zh/disclaimer
+- English disclaimer: https://aeoae.com/en/disclaimer
+- Chinese disclaimer: https://aeoae.com/zh/disclaimer
